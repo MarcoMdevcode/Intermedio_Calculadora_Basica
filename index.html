@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="carcasa">
+        <div>
+            <form name="form">
+                <input class="pantalla" name="pantalla" disabled>
+            </form>
+        </div>
+        <div class="botones">
+            <div class="numeros">
+                <div class="huecoboton1"><div class="botonApagar" onclick="apag()">ON/OFF</div></div>
+                <div class="huecoboton1"><div class="botonAC" onclick="clean()">AC</div></div>
+                <div class="huecoboton1"><div class="botonC" onclick="back()">C</div></div>
+                <div class="huecoboton1"><div class="boton7" onclick="insert(7)">7</div></div>
+                <div class="huecoboton1"><div class="boton8" onclick="insert(8)">8</div></div>
+                <div class="huecoboton1"><div class="boton9" onclick="insert(9)">9</div></div>
+                <div class="huecoboton1"><div class="boton4" onclick="insert(4)">4</div></div>
+                <div class="huecoboton1"><div class="boton5" onclick="insert(5)">5</div></div>
+                <div class="huecoboton1"><div class="boton6" onclick="insert(6)">6</div></div>
+                <div class="huecoboton1"><div class="boton1" onclick="insert(1)">1</div></div>
+                <div class="huecoboton1"><div class="boton2" onclick="insert(2)">2</div></div>
+                <div class="huecoboton1"><div class="boton3" onclick="insert(3)">3</div></div>
+                <div class="huecoboton1"><div class="boton0" onclick="insert(0)">0</div></div>
+                <div class="huecoboton1"><div class="botonpunto" onclick="insert('.')">.</div></div>
+                <div class="huecoboton1"><div class="botonraiz" onclick="sq()">√</div></div>
+            </div>
+            <div class="operadores">
+                <div class="huecoboton2"><div class="botonentre" onclick="insert('/')">/</div></div>
+                <div class="huecoboton2"><div class="botonpor" onclick="insert('*')">X</div></div>
+                <div class="huecoboton2"><div class="botonmas" onclick="insert('+')">+</div></div>
+                <div class="huecoboton2"><div class="botonmenos" onclick="insert('-')">-</div></div>
+                <div class="huecoboton2"><div class="botonigual" onclick="equal()">=</div></div>
+            </div>
+        </div>
+        <p>Calc by MarcoMdevcode</p>
+    </div>
+</body>
+</html>
